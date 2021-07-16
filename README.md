@@ -11,7 +11,7 @@
 ...
 
 ## 🗺 Architecture
-![schema](https://raw.githubusercontent.com/williamniemiec/ExecutionFlow/master/docs/img/architecture/schema.png?raw=true)
+![schema](https://raw.githubusercontent.com/williamniemiec/ml-ppc/master/docs/img/architecture/schema.png?raw=true)
 
 ## 📁 Files
 
