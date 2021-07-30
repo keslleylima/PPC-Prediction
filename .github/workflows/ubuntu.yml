@@ -21,6 +21,8 @@ jobs:
           activate-environment: jupyter-actions
           environment-file: environment.yml
           python-version: 3.7
+      - name: Install dependencies using pip
+        run: pip install -U scikit-learn imlearn
 
       - name: Execute all Notebooks
         shell: bash -l {0}
