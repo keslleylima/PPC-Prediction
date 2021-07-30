@@ -15,14 +15,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install conda environment
-        uses: conda-incubator/setup-miniconda@v1
-        with:
-          activate-environment: jupyter-actions
-          environment-file: environment.yml
-          python-version: 3.7
       - name: Install dependencies using pip
-        run: pip install -U scikit-learn imlearn
+        run: pip install -U scikit-learn imlearn pandas seaborn matplotlib numpy jupyterlab pytest
 
       - name: Execute all Notebooks
         shell: bash -l {0}
