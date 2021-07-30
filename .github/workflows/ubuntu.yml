@@ -1,26 +1,17 @@
-name: Test-Notebooks
-
-# Run every time a new commit is pushed
-on: push
+on: [push]
 
 jobs:
-  # Set the job key
-  Ubuntu:
-    # Name the job
-    name: Test Jupyter Notebooks
-    # Set the type of machine to run on
+  run:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Install dependencies using pip
-        run: pip install -U scikit-learn imblearn pandas seaborn matplotlib numpy jupyterlab pytest
-
-      - name: Execute all Notebooks
-        shell: bash -l {0}
-        run: |
-          conda activate jupyter-actions
-          pytest
-
+    - uses: actions/checkout@v1
+    - name: Set up Python
+      uses: actions/setup-python@v1
+    - uses: yaananth/run-notebook@v1
+      env:
+        RUNNER: ${{ toJson(runner) }}
+        SECRETS: ${{ toJson(secrets) }}
+        GITHUB: ${{ toJson(github) }}
+      with:
+        notebook: "src/main/jupyter/wniemiec/ml/ppc/main.ipynb"
+        isReport: True
