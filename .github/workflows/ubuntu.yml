@@ -13,5 +13,5 @@ jobs:
         SECRETS: ${{ toJson(secrets) }}
         GITHUB: ${{ toJson(github) }}
       with:
-        notebook: "src/main/jupyter/wniemiec/ml/ppc/main.ipynb"
+        notebook: "./src/main/jupyter/wniemiec/ml/ppc/main.ipynb"
         isReport: True
