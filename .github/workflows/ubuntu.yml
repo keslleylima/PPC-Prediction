@@ -7,11 +7,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Set up Python
       uses: actions/setup-python@v1
-    - uses: yaananth/run-notebook@v1
-      env:
-        RUNNER: ${{ toJson(runner) }}
-        SECRETS: ${{ toJson(secrets) }}
-        GITHUB: ${{ toJson(github) }}
-      with:
-        notebook: "/src/main/jupyter/wniemiec/ml/ppc/main.ipynb"
-        isReport: True
+    - name: Install dependencies
+      run: pip install -U scikit-learn imblearn pandas seaborn matplotlib numpy jupyterlab pytest
+    - name: Run main jupyter
+      run: jupyter notebook src/main/jupyter/wniemiec/ml/ppc/main.ipynb
