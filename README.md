@@ -28,6 +28,10 @@ To evaluate our solution, we used 12 open-source projects, 8 of which were used 
 ## 🗺 Architecture
 ![schema](https://raw.githubusercontent.com/williamniemiec/ml-ppc/master/docs/img/architecture/schema.png?raw=true)
 
+
+## 🚩 Changelog
+Details about each version are documented in the [releases section](https://github.com/williamniemiec/ml-ppc/releases).
+
 ## 🤝 Contribution
 - [Keslley Lima](https://github.com/keslleylima)
 - [Érika Cota](https://www.inf.ufrgs.br/site/docente/erika-fernandes-cota/)
