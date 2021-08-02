@@ -26,6 +26,10 @@ To evaluate our solution, we used 12 open-source projects, 8 of which were used 
 ## 🗺 Architecture
 ![schema](https://raw.githubusercontent.com/williamniemiec/ml-ppc/master/docs/img/architecture/schema.png?raw=true)
 
+## 🤝 Contribution
+- [Keslley Lima](https://github.com/keslleylima)
+- [Érika Cota](https://www.inf.ufrgs.br/site/docente/erika-fernandes-cota/)
+
 ## 📁 Files
 
 ### /
@@ -34,7 +38,3 @@ To evaluate our solution, we used 12 open-source projects, 8 of which were used 
 |docs |`Directory`|Documentation files|
 |out   |`Directory`| Exported files    |
 |src     |`Directory`| Source files|
-
-## 🤝 Contribution
-- [Keslley Lima](https://github.com/keslleylima)
-- [Érika Cota](https://www.inf.ufrgs.br/site/docente/erika-fernandes-cota/)
