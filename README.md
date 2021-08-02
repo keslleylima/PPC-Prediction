@@ -1,4 +1,4 @@
-![](https://github.com/williamniemiec/ExecutionFlow/blob/ml-ppc/docs/img/logo/logo.jpg?raw=true)
+![](https://raw.githubusercontent.com/williamniemiec/ml-ppc/master/docs/img/logo/logo.jpg)
 
 <h1 align='center'>Machine Learning - Prime Path Coverage (PPC)</h1>
 <p align='center'>Research on predicting the value of Prime Path Coverage (PPC) through machine learning.</p>
