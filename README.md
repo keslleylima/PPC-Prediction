@@ -3,7 +3,9 @@
 <h1 align='center'>Machine Learning - Prime Path Coverage (PPC)</h1>
 <p align='center'>Research on predicting the value of Prime Path Coverage (PPC) through machine learning.</p>
 <p align="center">
+	<a href="https://jupyter-notebook.readthedocs.io/en/stable/"><img src="https://img.shields.io/badge/Jupyter-Notebook-D0008F.svg" alt="Jupyter Compatibility"></a>
 	<a href="https://github.com/williamniemiec/ml-ppc/blob/master/LICENSE"><img src="https://img.shields.io/github/license/williamniemiec/ml-ppc" alt="License"></a>
+	<a href="https://github.com/williamniemiec/ml-ppc/releases"><img src="https://img.shields.io/github/v/release/williamniemiec/ml-ppc" alt="Release"></a>
 </p>
 <hr />
 
