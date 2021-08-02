@@ -14,6 +14,14 @@ One of the challenges of the software testing activity is to assess the quality 
 
 To evaluate our solution, we used 12 open-source projects, 8 of which were used for internal validation and 4 for external validation. In addition, we evaluated 3 different metrics availability scenarios: using only source code metrics (SCM model), only Edge Coverage (EC model) and using both (SCM + EC model). The results obtained were positive, the best model being the SCM + EC, with an average absolute error of approximately 6%, and, therefore, allowed the assessment of test coverage as expected. The results are relevant, given the difficulty of finding software that evaluate tests using the PPC coverage criterion. Because it is a practical way for the tester to discover PPC and because it is a high quality criterion, we believe that the work will contribute to the development of software with greater reliability. 
 
+## ✔ Requiremens
+- sklearn;
+- scipy;
+- matplotlib;
+- imblearn;
+- seaborn;
+- pandas;
+- numpy.
 
 ## 🗺 Architecture
 ![schema](https://raw.githubusercontent.com/williamniemiec/ml-ppc/master/docs/img/architecture/schema.png?raw=true)
