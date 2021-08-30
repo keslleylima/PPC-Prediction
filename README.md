@@ -48,3 +48,9 @@ Details about each version are documented in the [releases section](https://gith
 |docs |`Directory`|Documentation files|
 |out   |`Directory`| Exported files    |
 |src     |`Directory`| Source files|
+|Dataset     |`Directory`| CSV Files (dataset) genereted from the selected projects|
+|Source Code Metrics     |`Directory`| CSV Files containing the chosen metrics from the selected projects|
+|Projects    |`Directory`| Source code of the selected projects|
+|Test Paths    |`Directory`| Test paths of the selected projects|
+|Test Requirements    |`Directory`| Test requirements of the selected projects|
+|Understand Files    |`Directory`| Understand source file of the selected projects|
