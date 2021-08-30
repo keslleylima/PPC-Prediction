@@ -34,6 +34,7 @@ Details about each version are documented in the [releases section](https://gith
 
 ## 🤝 Contribution
 - [Keslley Lima](https://github.com/keslleylima)
+- [William Niemiec](https://github.com/williamniemiec)
 - [Érika Cota](https://www.inf.ufrgs.br/site/docente/erika-fernandes-cota/)
 
 ## 📁 Files
